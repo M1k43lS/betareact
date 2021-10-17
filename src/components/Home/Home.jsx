@@ -9,7 +9,7 @@ function Home() {
           <nav className={StyleSheet.nav}>
                 <NavLink to ='/' className={style.navLink}>
                      <p className = {style.btn}>
-                          HOME
+                          HOME-
                      </p>
                 </NavLink>
                 <input type='text'/>
