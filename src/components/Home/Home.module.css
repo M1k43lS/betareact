@@ -1,35 +1,46 @@
 .background {
     background-image: url("../../img/home.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    /* background-repeat: repeat; */
     background-size: cover;
+    min-height: 100vh;
+    /* viewport ocupa todo el tamaño disponible */
     width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
+    height: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
     animation: kenburns-top-left 5s ease-out both;
-    }
-    .btn{
-        text-align: center;
-        background-color: aqua;
-        padding: 20px;
-        width: 200px;
-        margin-top: 100px;
-        opacity: 0.6;
-        font-weight: bold;
-        border-radius: 30px;
-    
-    }
-    
-    .navLink{
-        text-decoration: none;
-    }
-    
-    .btn:hover{
-        opacity: 1;
-        transform: scale(1.2);
-        transition: 0.5s ease-in;
-    }
-    .cards{
-        display: grid;
-    }
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .btn {
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+    width: 150px;
+    text-transform: uppercase;
+    /* margin-top: 0px; */
+    opacity: 0.6;
+    font-weight: bold;
+    border-radius: 30px;
+  }
+  
+  .navLink {
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    transition: 0.5s ease-in;
+  }
+  
+  .text {
+    opacity: .7;
+    width: 400px;
+    height: 25px;
+  }

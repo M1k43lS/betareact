@@ -1,0 +1,19 @@
+.card {
+    background-color: rgb(9, 58, 133);
+    border-radius: 15px;
+    width: 215px;
+  }
+  
+  .container {
+    width: 100%;
+  }
+  
+  .imagen {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .info {
+    padding: 0px 0px 5px 10px;
+  }
