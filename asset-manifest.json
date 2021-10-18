@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/M1k43lS/betareact/static/css/main.e1707466.chunk.css",
-    "main.js": "/M1k43lS/betareact/static/js/main.cfe20d81.chunk.js",
-    "main.js.map": "/M1k43lS/betareact/static/js/main.cfe20d81.chunk.js.map",
-    "runtime-main.js": "/M1k43lS/betareact/static/js/runtime-main.e6afc86b.js",
-    "runtime-main.js.map": "/M1k43lS/betareact/static/js/runtime-main.e6afc86b.js.map",
-    "static/js/2.f4f68cfd.chunk.js": "/M1k43lS/betareact/static/js/2.f4f68cfd.chunk.js",
-    "static/js/2.f4f68cfd.chunk.js.map": "/M1k43lS/betareact/static/js/2.f4f68cfd.chunk.js.map",
-    "static/js/3.e6711a19.chunk.js": "/M1k43lS/betareact/static/js/3.e6711a19.chunk.js",
-    "static/js/3.e6711a19.chunk.js.map": "/M1k43lS/betareact/static/js/3.e6711a19.chunk.js.map",
-    "index.html": "/M1k43lS/betareact/index.html",
-    "static/css/main.e1707466.chunk.css.map": "/M1k43lS/betareact/static/css/main.e1707466.chunk.css.map",
-    "static/js/2.f4f68cfd.chunk.js.LICENSE.txt": "/M1k43lS/betareact/static/js/2.f4f68cfd.chunk.js.LICENSE.txt",
-    "static/media/Landing.module.css": "/M1k43lS/betareact/static/media/background.fb104a02.jpg",
-    "static/media/Home.module.css": "/M1k43lS/betareact/static/media/home.2bbec64a.jpg",
-    "static/media/logo.6ce24c58.svg": "/M1k43lS/betareact/static/media/logo.6ce24c58.svg"
+    "main.css": "/betareact/static/css/main.b1120add.chunk.css",
+    "main.js": "/betareact/static/js/main.cfe20d81.chunk.js",
+    "main.js.map": "/betareact/static/js/main.cfe20d81.chunk.js.map",
+    "runtime-main.js": "/betareact/static/js/runtime-main.81b7ffad.js",
+    "runtime-main.js.map": "/betareact/static/js/runtime-main.81b7ffad.js.map",
+    "static/js/2.f4f68cfd.chunk.js": "/betareact/static/js/2.f4f68cfd.chunk.js",
+    "static/js/2.f4f68cfd.chunk.js.map": "/betareact/static/js/2.f4f68cfd.chunk.js.map",
+    "static/js/3.e6711a19.chunk.js": "/betareact/static/js/3.e6711a19.chunk.js",
+    "static/js/3.e6711a19.chunk.js.map": "/betareact/static/js/3.e6711a19.chunk.js.map",
+    "index.html": "/betareact/index.html",
+    "static/css/main.b1120add.chunk.css.map": "/betareact/static/css/main.b1120add.chunk.css.map",
+    "static/js/2.f4f68cfd.chunk.js.LICENSE.txt": "/betareact/static/js/2.f4f68cfd.chunk.js.LICENSE.txt",
+    "static/media/Landing.module.css": "/betareact/static/media/background.fb104a02.jpg",
+    "static/media/Home.module.css": "/betareact/static/media/home.2bbec64a.jpg",
+    "static/media/logo.6ce24c58.svg": "/betareact/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e6afc86b.js",
+    "static/js/runtime-main.81b7ffad.js",
     "static/js/2.f4f68cfd.chunk.js",
-    "static/css/main.e1707466.chunk.css",
+    "static/css/main.b1120add.chunk.css",
     "static/js/main.cfe20d81.chunk.js"
   ]
 }
