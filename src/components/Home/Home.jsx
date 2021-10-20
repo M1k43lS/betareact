@@ -10,6 +10,7 @@ export default function Home() {
 
      const [characters, setCharacters] = useState([]);
      const [search, setSearch] = useState([]);
+     const [filters, setFilters] = useState([]);
 
      useEffect(() => {
           let char = getCharacters();
@@ -17,34 +18,45 @@ export default function Home() {
           char.then(r => {
                setSearch(r)
                setCharacters(r)
+               setFilters(r)
 
           });
      }, []);
 
 
      function handleInputChange(event) {
-          // console.log(event.target.value);
-          const value = event.target.value;
-          // sino f
+          const value = event.target.value; 
           const filter = characters.filter(character => { return character.name.toLowerCase().includes(value.toLowerCase()); });
-          // console.log(filter);
           setSearch(filter);
+     }
+
+     function homemadeFilter(event){
+          const value = event.target.value; 
+          const filter = characters.filter(character => { return character.includes(value.toLowerCase()); });
+          setFilters(filter);
      }
 
      async function getCharacters() {
           const api = await axios.get('https://rickandmortyapi.com/api/character');
-          return api.data.results; //devuelve una promesa asincrona
+          return api.data.results; 
      }
 
      return (
           <div className={style.background}>
                <nav className={style.nav}>
                     <NavLink to='/' className={style.navLink}>
-                         <p className={style.btn}>
-                              Landing
-                         </p>
+                         {<p className={style.btn}>
+                              <img/>
+                              L
+                         </p>}.
+
                     </NavLink>
-                    <input type='text' className={style.text} onChange={handleInputChange} />
+                    <input type='text' className={style.text} onChange={handleInputChange} placeholder='Ingrese aqui su busqueda' />
+                         <select name="select" className={style.select}>
+                              <option  className={style.select} selected >All</option>
+                              <option  className={style.select} >species</option>
+                              <option  className={style.select} >status</option>
+                         </select>
                     <NavLink to='#' className={style.navLink}>
                     </NavLink>
                </nav>
