@@ -1,7 +1,7 @@
 .card {
-    background-color: rgb(113, 20, 150);
+    background-color: rgb(9, 58, 133);
     border-radius: 15px;
-    width: 20vh;
+    width: 215px;
   }
   
   .container {
@@ -15,14 +15,5 @@
   }
   
   .info {
-    width: 100%;
     padding: 0px 0px 5px 10px;
-    text-align: center;
   }
-
-  .card:hover{
-    transform: scale(1.2);
-    transition: 0.5s ease-in;
-  }
-
-  
